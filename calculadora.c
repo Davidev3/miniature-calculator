@@ -56,6 +56,5 @@ int main(void) {
     } while(repetir == 's' || repetir == 'S'); // repete se for 's' ou 'S'
 
     printf("Fim do programa!\n");
-    system("pause");
     return 0;
 }
