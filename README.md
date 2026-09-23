@@ -9,7 +9,7 @@ gcc -std=c11 -Wall -Wextra calculadora.c -o calculadora
 ./calculadora
 ```
 
-No Windows, execute `calculadora.exe`. O programa contém `system("pause")`, específico do Windows; em Linux e macOS pode aparecer `pause: not found` após o encerramento. Remover essa chamada é recomendado para portabilidade.
+No Windows, execute `calculadora.exe`.
 
 ## Limitações
 
