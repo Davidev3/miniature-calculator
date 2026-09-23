@@ -1,16 +1,16 @@
-# Calculadora de linha de comando em C
+# Command-Line Calculator in C
 
-Exercício de programação em C com soma, subtração, multiplicação, divisão e repetição do menu. A divisão por zero é tratada com uma mensagem de erro.
+An introductory C exercise with addition, subtraction, multiplication, division, and an interactive repeat prompt. Division by zero is handled with an error message.
 
-## Compilar e executar
+## Build and run
 
 ```bash
 gcc -std=c11 -Wall -Wextra calculadora.c -o calculadora
 ./calculadora
 ```
 
-No Windows, execute `calculadora.exe`.
+On Windows, run `calculadora.exe`.
 
-## Limitações
+## Limitations
 
-A entrada usa `scanf` para números inteiros e não trata entradas não numéricas. Este repositório é um exercício introdutório; a divisão produz resultado com duas casas decimais.
+Input uses `scanf` for integers and does not validate nonnumeric input. Division displays a result with two decimal places.
